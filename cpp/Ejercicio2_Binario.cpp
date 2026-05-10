@@ -10,6 +10,20 @@ struct Nodo {
 
 Nodo* insertar(Nodo* raiz, int valor) {
     // TODO: Implementa tu lógica aquí
+    // Si el nodo está vacío, creamos uno nuevo
+    if (raiz == nullptr) {
+        return new Nodo(valor);
+    }
+
+    // Si el valor es menor, va a la izquierda
+    if (valor < raiz->valor) {
+        raiz->izquierdo = insertar(raiz->izquierdo, valor);
+    }
+
+    // Si el valor es mayor, va a la derecha
+    else if (valor > raiz->valor) {
+        raiz->derecho = insertar(raiz->derecho, valor);
+    }
     return raiz;
 }
 
