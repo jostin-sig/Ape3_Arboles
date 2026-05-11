@@ -4,6 +4,19 @@ import java.util.List;
 public class  RecorridoInOrder {
     public static void inOrderAux(Nodo nodo, List<Integer> resultado) {
         // TODO: Implementa tu lógica de recorrido aquí
+         // Caso base
+        if (nodo == null) {
+            return;
+        }
+
+        // Recorrer izquierda
+        inOrderAux(nodo.izquierdo, resultado);
+
+        // Guardar raíz
+        resultado.add(nodo.valor);
+
+        // Recorrer derecha
+        inOrderAux(nodo.derecho, resultado);
     }
 
     public static List<Integer> recorridoInOrder(Nodo raiz) {
