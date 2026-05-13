@@ -95,19 +95,19 @@ cd Ape3_Arboles
  
 ```bash
 # Ejercicio 1
-g++ ejercicio1/Ejercicio1_Basico.cpp -o ejercicio1 && ./ej1
+g++ ejercicio1/Ejercicio1_Basico.cpp -o ejercicio1 
  
 # Ejercicio 2
-g++ ejercicio2/Ejercicio2_Binario.cpp -o ejercicio2 && ./ej2
+g++ ejercicio2/Ejercicio2_Binario.cpp -o ejercicio2 
  
 # Ejercicio 3
-g++ ejercicio3/Ejercicio3_Binario2.cpp -o ejercicio3 && ./ej3
+g++ ejercicio3/Ejercicio3_Binario2.cpp -o ejercicio3 
  
 # Ejercicio 4
-g++ ejercicio4/Ejercicio4_Recorridos.cpp -o ejercicio4 && ./ej4
+g++ ejercicio4/Ejercicio4_Recorridos.cpp -o ejercicio4 
  
 # Ejercicio 5
-g++ ejercicio5/Ejercicio5_Transformacion.cpp -o ejercicio5 && ./ej5
+g++ ejercicio5/Ejercicio5_Transformacion.cpp -o ejercicio5 
 ```
  
 ### 3. Ejecutar en Java
@@ -158,13 +158,13 @@ Nodos esperados: 6
 Nodos calculados: 6
 ```
 Ejecución en C++
-```
+
 ![Ejercicio 1 C++](capturas/ejercicio1_C++.png)
-```
+
 Ejecución en Java
-```
+
 ![Ejercicio 1 java](capturas/ejercicio1_java.png)
-```
+
  
 ---
  
@@ -190,13 +190,13 @@ Hijo Derecho (Esperado 15): 15
 Hijo Izq del 5 (Esperado 3): 3
 ```
 Ejecución en C++
-```
+
 ![Ejercicio 2 C++](capturas/ejercicio2_c++.png)
-```
+
 Ejecución en Java
-```
+
 ![Ejercicio 2 java](capturas/ejercicio2_java.png)
-```
+
  
 ---
  
@@ -221,13 +221,13 @@ Altura calculada: 3
 Altura de arbol nulo (esperado 0): 0
 ```
 Ejecución en C++
-```
+
 ![Ejercicio 3 C++](capturas/ejercicio3_c++.png)
-```
+
 Ejecución en Java
-```
+
 ![Ejercicio 3 java](capturas/ejercicio3_java.png)
-```
+
  
 ---
  
@@ -251,13 +251,13 @@ Resultado esperado: 1 2 3 4 5 6 7
 Tu resultado:       1 2 3 4 5 6 7
 ```
 Ejecución en C++
-```
+
 ![Ejercicio 4 C++](capturas/ejercicio4_c++.png)
-```
+
 Ejecución en Java
-```
+
 ![Ejercicio 4 java](capturas/ejercicio4_java.png)
-```
+
  
 ---
  
@@ -282,13 +282,13 @@ Despues de invertir (Esperado: Izq 3 | Der 2):
 Hijo Izq: 3 | Hijo Der: 2
 ```
 Ejecución en C++
-```
+
 ![Ejercicio 5 C++](capturas/ejercicio5_c++.png)
-```
+
 Ejecución en Java
-```
+
 ![Ejercicio 5 java](capturas/ejercicio5_java.png)
-```
+
  
 ---
  
